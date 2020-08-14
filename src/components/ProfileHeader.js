@@ -25,7 +25,7 @@ class ProfileHeader extends Component {
               Truth can only be found in one place: the code.
             </p>
             <a href="#" className="text-blue-500 font-bold">
-              Edit
+              Update
             </a>
           </div>
         </div>
