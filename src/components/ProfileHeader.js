@@ -4,7 +4,7 @@ class ProfileHeader extends Component {
   render() {
     return (
       <div>
-        <div className="container mx-auto">
+        <div className="w-2/3 mx-auto">
           <div
             style={{ backgroundImage: "url('5.jpg')" }}
             className="h-64 bg-cover flex items-end justify-center relative"
@@ -25,8 +25,21 @@ class ProfileHeader extends Component {
               Truth can only be found in one place: the code.
             </p>
             <a href="#" className="text-blue-500 font-bold">
-              Update
+              Edit
             </a>
+          </div>
+          <div className=" mt-2 w-4/5 mx-auto">
+            <hr></hr>
+            <div className="text-gray-500 font-bold">
+              <ul className="">
+                <li className=" inline-block p-4 rounded hover:bg-gray-900">
+                  <a href="#">Timeline</a>
+                </li>
+                <li className=" inline-block p-4 rounded hover:bg-gray-900">
+                  <a href="#">Friends</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
